@@ -12,5 +12,9 @@
         - 'algo name': name of sorting algo(bubble sort, linear sort, etc..)
         - 'filename': name of datafile (.txt or .csv)
         
+    - ./a generate n 'filename'
+        - generate: enter generate sample data mode
+        - n: number of value need to generate
+        - filename: name of datafile to save data
 
     
