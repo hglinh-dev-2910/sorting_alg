@@ -70,7 +70,7 @@ void writeIntListToFile(int* data, int n, std::string filename)
     }
     else 
     {
-        outfile << n; // first line
+        outfile << n << std::endl; // first line
         for (int i = 0; i < n; i++)
         {
             outfile << data[i] << std::endl; // write each value in 1 line (2 -> n + 1)
